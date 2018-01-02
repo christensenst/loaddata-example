@@ -1,0 +1,40 @@
+[
+{
+  "model": "app_two.author",
+  "pk": 1,
+  "fields": {
+    "first_name": "Tom",
+    "last_name": "Smith"
+  }
+},
+{
+  "model": "app_two.author",
+  "pk": 2,
+  "fields": {
+    "first_name": "Beth",
+    "last_name": "Thompson"
+  }
+},
+{
+  "model": "app_two.book",
+  "pk": 1,
+  "fields": {
+    "title": "Over the River",
+    "author": [
+      "Tom",
+      "Smith"
+    ]
+  }
+},
+{
+  "model": "app_two.book",
+  "pk": 2,
+  "fields": {
+    "title": "Through the Woods",
+    "author": [
+      "Beth",
+      "Thompson"
+    ]
+  }
+}
+]

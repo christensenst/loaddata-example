@@ -1,0 +1,4 @@
+loaddata-example:
+  build: .
+  volumes:
+    - ./loaddata_example:/opt/loaddata_example

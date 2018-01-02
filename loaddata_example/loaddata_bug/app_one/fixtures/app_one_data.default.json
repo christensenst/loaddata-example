@@ -1,0 +1,40 @@
+[
+{
+  "model": "app_one.person",
+  "pk": 1,
+  "fields": {
+    "first_name": "Ben",
+    "last_name": "Smith"
+  }
+},
+{
+  "model": "app_one.person",
+  "pk": 2,
+  "fields": {
+    "first_name": "Sam",
+    "last_name": "Jones"
+  }
+},
+{
+  "model": "app_one.office",
+  "pk": 1,
+  "fields": {
+    "title": "Manager",
+    "person": [
+      "Ben",
+      "Smith"
+    ]
+  }
+},
+{
+  "model": "app_one.office",
+  "pk": 2,
+  "fields": {
+    "title": "Sales Guy",
+    "person": [
+      "Sam",
+      "Jones"
+    ]
+  }
+}
+]
