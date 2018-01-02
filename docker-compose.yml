@@ -1,4 +1,4 @@
 loaddata-example:
   build: .
   volumes:
-    - ./loaddata_example:/opt/loaddata_example
+    - ./loaddata_example:/usr/src/app/
