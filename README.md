@@ -9,7 +9,7 @@ with natural keys
 
     ```
     git clone git@github.com:christensenst/loaddata-example.git
-    cd loaddata_example
+    cd loaddata-example
     ```
 2. Build the docker container
 
