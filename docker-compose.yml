@@ -2,3 +2,6 @@ loaddata-example:
   build: .
   volumes:
     - ./loaddata_example:/usr/src/app/
+  ports:
+    - "8022:22"    # SSH
+  command: ["sh", "-c", "sleep 300d"]
